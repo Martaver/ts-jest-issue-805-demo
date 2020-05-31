@@ -1,8 +1,19 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "preserveSymlinks": false
+    "preserveSymlinks": false,
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
+    "composite": true,
+    "incremental": true,
+    "rootDir": "src"
   },
-  "references": [{ "path": "../my-library" }],
-  "include": ["./**/*"]
+  "references": [
+    {
+      "path": "../my-library"
+    }
+  ],
+  "include": [
+    "src/**/*"
+  ],
 }

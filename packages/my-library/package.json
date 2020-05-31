@@ -5,5 +5,6 @@
   "scripts": {
     "clean": "rimraf *.tsbuildinfo \"**/!jest.config.{js,d.ts,map}\"",
     "test": "jest"
-  }
+  },
+  "main": "dist/index.js"
 }

@@ -1,4 +1,4 @@
-import { myLibraryFunction } from './';
+import { myLibraryFunction } from '.';
 
 test('myLibraryFunction', () => {
   const result = myLibraryFunction();
